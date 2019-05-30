@@ -12,7 +12,13 @@ function theBeatlesPlay(mus, inst){
 }
 
 function johnLennonFacts(jLF){
-  while (jLF.length > 0; jLF.length--)
+  var i = 0;
+  
+  while (i < jLF.length){
+    jLF[i]=(jLF[i] + "!!!")
+    i++
+  }
+  return jLF;
 }
 
 function iLoveTheBeatles(num){
