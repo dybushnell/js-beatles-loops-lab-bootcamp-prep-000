@@ -1,13 +1,13 @@
 // add solution here
 function theBeatlesPlay(mus, inst){
   
-  var firstArray = [];
+  var theBeatlesPlayArray = [];
   var i;
   
   for(i = 0; i < mus.length; i++){
-   var firstArrayContents = (mus[i] + " plays " + inst[i])
-   firstArray = [...firstArray, firstArrayContents]
-   return firstArray
+   var theBeatlesPlayArrayContents = (mus[i] + " plays " + inst[i])
+   theBeatlesPlayArray [i]= [...theBeatlesPlayArray, theBeatlesPlayArrayContents]
+   return theBeatlesPlayArray
   }
 }
 
