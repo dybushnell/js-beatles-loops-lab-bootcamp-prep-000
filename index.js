@@ -25,8 +25,10 @@ function johnLennonFacts(jLF){
 
 function iLoveTheBeatles(num){
   var beatlesArray = [];
+  var counter = 0;
   do {
-    beatlesArray[num] = "I love the Beatles!"
+    beatlesArray[counter] = "I love the Beatles!"
+    counter++
     num++
   }
   while (num < 15);
