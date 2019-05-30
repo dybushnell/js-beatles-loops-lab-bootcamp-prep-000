@@ -7,11 +7,10 @@ function theBeatlesPlay(mus, inst){
   for(i = 0; i < mus.length; i++){
    var theBeatlesPlayArrayContents = (mus[i] + " plays " + inst[i])
    theBeatlesPlayArray.push(theBeatlesPlayArrayContents)
-   
   }
-
   return theBeatlesPlayArray
 }
+
 
 function johnLennonFacts(jLF){
   var i = 0;
