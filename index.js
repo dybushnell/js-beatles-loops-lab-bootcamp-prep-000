@@ -6,7 +6,7 @@ function theBeatlesPlay(mus, inst){
   
   for(i = 0; i < mus.length; i++){
    var theBeatlesPlayArrayContents = (mus[i] + " plays " + inst[i])
-   theBeatlesPlayArray [i]= [...theBeatlesPlayArray, theBeatlesPlayArrayContents]
+   theBeatlesPlayArray.push(theBeatlesPlayArrayContents)
    
   }
 
