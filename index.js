@@ -22,9 +22,9 @@ function johnLennonFacts(jLF){
   return jLF;
 }
 
+
 function iLoveTheBeatles(num){
   var beatlesArray = [];
-  
   do {
     beatlesArray[num] = "I love the Beatles!"
     num++
